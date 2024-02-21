@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+body {
+    margin: 0;
+}
+
+.container {
+    left: 20%;
+    top: 26px;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0% 20%;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar
+{
+    display: flex;
+}
+
+.main-nav {
+    display: flex;
+    list-style: none;
+    margin-left: 140px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    padding: 15px;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+img {
+    height: 60px;
+    width: 240px;
+    top: 26px;
+    padding: 15px 0px;
+    margin: 0px;
+}
+
+button {
+    height: 49px;
+    width: 128px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 8px;
+    padding-right: 0px;
+}
+
+ul
+{
+    padding: 0px;
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+.wrapper {
+    margin-top: 0px;
+    display: grid;
+    grid-template-areas: "section1 section1 section1 section1"
+        "sidebar section2 section2 section2"
+        "sidebar section3 section3 section4";
+    gap: 10px;
+    height: 100vh;
+}
+
+.s1 {
+    grid-area: section1;
+    background-color: #F5C0AC;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: #DBCFCF;
+}
+
+.s2 {
+    grid-area: section2;
+    background-color: #D9D9D9;
+}
+
+.s3 {
+    grid-area: section3;
+    background-color: #E2E2E2;
+}
+
+.s4 {
+    grid-area: section4;
+    background-color: #E2E2E2;
+}
+
+.wrapper>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background-color: #363636;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.footer-left {
+    color: #D9D9D9;
+    margin-left: 285px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.footer-right {
+    margin-right: 280px;
+}
+
+.i {
+    width: 34px;
+    height: 34px;
+    padding: 0 5px;
+}
